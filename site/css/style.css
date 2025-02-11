@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
