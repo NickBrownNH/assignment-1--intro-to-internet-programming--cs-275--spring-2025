@@ -36,7 +36,16 @@ h3 {
   margin-left: 24px;
 }
 
-p {
+#innovative,
+#useful,
+#aesthetic,
+#understandable,
+#unobtrusive,
+#honest,
+#long-lasting,
+#thorough,
+#environmental,
+#little-design{
   border: 4px solid black;
   padding: 4px;
   margin: 12px;
@@ -50,11 +59,11 @@ b {
   font-weight: bold;
 }
 
-#ele1,
-#ele2,
-#ele3,
-#ele4,
-#ele5 {
+#first-row,
+#second-row,
+#third-row,
+#fourth-row,
+#fifth-row {
   display: flex;
   border: 6px solid black;
   width: 60%;
@@ -80,26 +89,102 @@ nav {
   ul {
     li:nth-child(1) {
       a {
-        color: blue;
+        color: red;
       }
     }
 
     li:nth-child(2) {
       a {
+        color: orange;
+      }
+    }
+
+    li:nth-child(3) {
+      a {
+        color: brown;
+      }
+    }
+
+    li:nth-child(4) {
+      a {
         color: green;
       }
     }
+
+    li:nth-child(5) {
+      a {
+        color: blue;
+      }
+    }
+
+    li:nth-child(6) {
+      a {
+        color: indigo;
+      }
+    }
+
+    li:nth-child(7) {
+      a {
+        color: violet;
+      }
+    }
+
+    li:nth-child(8) {
+      a {
+        color: rgb(255, 0, 102);;
+      }
+    }
+
+    li:nth-child(9) {
+      a {
+        color: rgb(142, 112, 60);
+      }
+    }
+
+    li:nth-child(10) {
+      a {
+        color: rgb(0, 5, 104);;
+      }
+    }
   }
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.brown {
+  color: brown;
+}
+
+.green {
+  color: green;
 }
 
 .blue {
   color: blue;
 }
 
-.purple {
-  color: purple;
-}
-
 .indigo {
   color: indigo;
+}
+
+.violet {
+  color: violet;
+}
+
+.pink {
+  color: rgb(255, 0, 102);
+}
+
+.beige {
+  color: rgb(142, 112, 60);
+}
+
+.deep-blue {
+  color: rgb(0, 5, 104);
 }
