@@ -36,6 +36,23 @@ h3 {
   margin-left: 24px;
 }
 
+p {
+  margin: 2px;
+}
+
+#author {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#intro {
+  font-size: 24px;
+  margin-top: 28px;
+  font-weight: bold;
+}
+
 #innovative,
 #useful,
 #aesthetic,
@@ -55,8 +72,44 @@ h3 {
   text-align: center;
 }
 
-b {
-  font-weight: bold;
+#innovative {
+  border-color: red;
+}
+
+#useful {
+  border-color: orange;
+}
+
+#aesthetic {
+  border-color: brown;
+}
+
+#understandable {
+  border-color: green;
+}
+
+#unobtrusive {
+  border-color: blue;
+}
+
+#honest {
+  border-color: indigo;
+}
+
+#long-lasting {
+  border-color: violet;
+}
+
+#thorough {
+  border-color: rgb(255, 0, 102);
+}
+
+#environmental {
+  border-color: rgb(142, 112, 60);
+}
+
+#little-design {
+  border-color: rgb(0, 5, 104);
 }
 
 #first-row,
@@ -75,6 +128,7 @@ ul {
   display: flex;
   justify-content: center;
 }
+
 ul li a {
   text-decoration: none;
   list-style: none;
@@ -143,7 +197,7 @@ nav {
 
     li:nth-child(10) {
       a {
-        color: rgb(0, 5, 104);;
+        color: rgb(0, 5, 104);
       }
     }
   }
